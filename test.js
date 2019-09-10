@@ -18,6 +18,10 @@ test('works with same amount of placeholders and values', t => {
 	t.is(p('Vivamus {0} massa', 'lacus'), 'Vivamus lacus massa');
 });
 
+test('should do a simultaneous replacement', t => {
+	t.is(p('{0}{1}', '{1}', '{0}'), '{1}{0}');
+});
+
 test('works with more placeholders than values', t => {
 	t.is(p('Quisque {0} lectus {1} {2} gravida', 'vel', 'imperdiet'), 'Quisque vel lectus imperdiet {2} gravida');
 });
