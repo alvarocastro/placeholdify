@@ -1,0 +1,26 @@
+{
+  "name": "placeholdify",
+  "version": "0.0.1",
+  "description": "Simple strings placeholder utility",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvarocastro/placeholdify.git"
+  },
+  "keywords": [
+    "string",
+    "strings",
+    "placeholder",
+    "replace",
+    "sprintf"
+  ],
+  "author": "Alvaro cAstro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alvarocastro/placeholdify/issues"
+  },
+  "homepage": "https://github.com/alvarocastro/placeholdify#readme"
+}
