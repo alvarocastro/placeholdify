@@ -1,6 +1,6 @@
 {
   "name": "placeholdify",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Simple strings placeholder utility",
   "main": "index.js",
   "scripts": {
