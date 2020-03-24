@@ -24,7 +24,7 @@
     "url": "https://github.com/alvarocastro/placeholdify/issues"
   },
   "engines": {
-    "node": "8.0.0"
+    "node": "8.17.0"
   },
   "homepage": "https://github.com/alvarocastro/placeholdify#readme",
   "dependencies": {},
