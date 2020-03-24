@@ -36,10 +36,10 @@ test('works with numbers as values', t => {
 });
 
 test('works with falsy values', t => {
-	t.is(p('It\'s {0}{1}', null, '!!'), 'It\'s null!!');
-	t.is(p('It\'s {0}{1}', 0, '!!'), 'It\'s 0!!');
-	t.is(p('It\'s {0}{1}', false, '!!'), 'It\'s false!!');
-	t.is(p('It\'s {0}{1}', '', '!!'), 'It\'s !!');
+	t.is(p('It’s {0}{1}', null, '!!'), 'It’s null!!');
+	t.is(p('It’s {0}{1}', 0, '!!'), 'It’s 0!!');
+	t.is(p('It’s {0}{1}', false, '!!'), 'It’s false!!');
+	t.is(p('It’s {0}{1}', '', '!!'), 'It’s !!');
 });
 
 test('works with array values', t => {
