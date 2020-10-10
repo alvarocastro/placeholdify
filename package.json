@@ -1,11 +1,10 @@
 {
   "name": "placeholdify",
-  "version": "1.0.2",
-  "description": "Simple strings placeholder utility",
+  "version": "0.0.0-development",
+  "description": "Simple placeholder utility for strings",
   "main": "index.js",
   "scripts": {
-    "test": "xo && nyc ava",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "test": "xo && nyc ava"
   },
   "repository": {
     "type": "git",
@@ -15,6 +14,7 @@
     "string",
     "strings",
     "placeholder",
+    "placeholders",
     "replace",
     "sprintf"
   ],
@@ -23,15 +23,13 @@
   "bugs": {
     "url": "https://github.com/alvarocastro/placeholdify/issues"
   },
-  "engines": {
-    "node": "10 || >=12"
-  },
   "homepage": "https://github.com/alvarocastro/placeholdify#readme",
   "dependencies": {},
   "devDependencies": {
     "ava": "3.8.2",
     "coveralls": "3.1.0",
     "nyc": "15.0.1",
+    "semantic-release": "^17.1.2",
     "xo": "0.30.0"
   }
 }
